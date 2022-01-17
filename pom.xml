@@ -12,6 +12,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <junit.version>5.8.2</junit.version>
+        <mockito.version>4.2.0</mockito.version>
         <restassured.version>4.4.0</restassured.version>
         <jackson.databind.version>2.13.1</jackson.databind.version>
         <json.version>20210307</json.version>
@@ -32,6 +33,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
 
