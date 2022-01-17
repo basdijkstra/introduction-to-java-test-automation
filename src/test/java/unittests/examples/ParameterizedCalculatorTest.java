@@ -13,11 +13,8 @@ public class ParameterizedCalculatorTest {
     public void subtract2from4_shouldEqual2() {
 
         Calculator calculator = new Calculator();
-
         calculator.add(4);
-
         calculator.subtract(2);
-
         assertEquals(2, calculator.getTotal());
     }
 
@@ -25,11 +22,8 @@ public class ParameterizedCalculatorTest {
     public void subtract13from1000_shouldEqual987() {
 
         Calculator calculator = new Calculator();
-
         calculator.add(1000);
-
         calculator.subtract(13);
-
         assertEquals(987, calculator.getTotal());
     }
 
@@ -37,11 +31,8 @@ public class ParameterizedCalculatorTest {
     public void subtract5from2_shouldEqualMinus3() {
 
         Calculator calculator = new Calculator();
-
         calculator.add(2);
-
         calculator.subtract(5);
-
         assertEquals(-3, calculator.getTotal());
     }
 
@@ -79,3 +70,4 @@ public class ParameterizedCalculatorTest {
         assertEquals(5, myCalculator.getTotal());
     }
 }
+
